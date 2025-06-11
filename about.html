@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Intermountain Steel Manufacturing Inc.</title>
+    <meta name="description" content="Learn about the history, values, and expert team behind Intermountain Steel Manufacturing in Colorado Springs.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Frameworks & Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Main Stylesheet (Untouched from Homepage) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- NEW: Embedded Styles for Unique Subpage Header -->
+    <style>
+        .subpage-banner {
+            padding: 10rem 1.5rem 6rem 1.5rem;
+            background-color: #1a1a1a;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        .subpage-banner::after {
+            content: '';
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: radial-gradient(circle, rgba(13, 148, 136, 0.2) 0%, rgba(13, 148, 136, 0) 65%);
+            filter: blur(100px);
+        }
+        .subpage-banner .inner {
+            position: relative;
+            z-index: 2;
+        }
+        .subpage-banner h1 {
+            font-size: 3rem;
+            font-weight: 900;
+        }
+        .subpage-banner p {
+            font-size: 1.25rem;
+            color: #9ca3af;
+            max-width: 45rem;
+            margin: 1rem auto 0 auto;
+        }
+        @media (min-width: 768px) {
+            .subpage-banner h1 {
+                font-size: 4rem;
+            }
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">
+                <span class="icon"><i class="fas fa-mountain fa-lg"></i></span>
+                <span class="title">Intermountain Steel</span>
+            </a>
+            <button id="menu-btn" class="menu-btn">Menu</button>
+        </header>
+
+        <!-- Navigation Overlay -->
+        <div id="nav-overlay">
+            <button id="nav-close-btn" class="close-btn">&times;</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- NEW Unique Subpage Banner -->
+        <section class="subpage-banner">
+            <div class="inner">
+                <header class="wow animate__animated animate__fadeInDown">
+                    <h1>About Our Company</h1>
+                </header>
+                <div class="content wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                    <p>Forging a legacy of strength, integrity, and innovation in the heart of Colorado.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <div id="main">
+
+            <!-- Our Story Section -->
+            <section id="our-story" class="content-section darker">
+                <div class="inner wow animate__animated animate__fadeInUp">
+                    <header class="major">
+                        <h2>Our Story</h2>
+                    </header>
+                    <div class="text-left md:flex gap-12 items-center">
+                        <div class="md:w-1/2">
+                            <p class="mb-4">Founded in the heart of Colorado Springs, Intermountain Steel Manufacturing Inc. was born from a passion for quality construction and a vision to supply the region with superior steel components. From our earliest days, we have been committed to not just meeting, but exceeding industry standards.</p>
+                            <p class="mb-4">Our journey is one of continuous growth, driven by investments in technology and an unwavering dedication to our craft. We've proudly contributed to the skyline and infrastructure of our community, building a reputation for reliability, precision, and partnership on projects both large and small.</p>
+                        </div>
+                        <div class="md:w-1/2 mt-8 md:mt-0">
+                           <img src="assets/images/7.jpg" alt="Our Workshop" class="rounded-lg shadow-lg w-full">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Our Core Values Section -->
+            <section id="our-values" class="content-section">
+                <div class="inner wow animate__animated animate__fadeInUp">
+                    <header class="major">
+                        <h2>Our Core Values</h2>
+                    </header>
+                    <p class="section-intro">These principles are the bedrock of our company culture and guide every decision we make, from the factory floor to the construction site.</p>
+                    <div class="services-grid mt-12">
+                        <div class="service-card">
+                            <span class="icon fas fa-award"></span>
+                            <h3>Uncompromising Quality</h3>
+                            <p>We are dedicated to delivering the highest quality steel components, ensuring durability and performance.</p>
+                        </div>
+                        <div class="service-card">
+                            <span class="icon fas fa-handshake"></span>
+                            <h3>Partnership & Integrity</h3>
+                            <p>We build lasting relationships based on trust, honesty, and transparent communication with every client.</p>
+                        </div>
+                        <div class="service-card">
+                            <span class="icon fas fa-lightbulb"></span>
+                            <h3>Continuous Innovation</h3>
+                            <p>We embrace modern techniques and technologies to provide efficient and cutting-edge solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action Section -->
+            <section id="cta" class="content-section darker">
+                <div class="inner wow animate__animated animate__pulse">
+                     <header class="major">
+                        <h2>Explore Our Services</h2>
+                    </header>
+                    <p class="section-intro">See how our expertise in steel manufacturing can bring value, strength, and durability to your next construction project.</p>
+                     <ul class="actions" style="margin-top: 2rem;">
+                        <li><a href="services.html" class="button secondary">View Our Capabilities</a></li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <!-- About Column -->
+                <div>
+                    <h3>About Intermountain Steel</h3>
+                    <p>A premier steel manufacturing company based in Colorado Springs, dedicated to providing high-quality components for commercial and residential construction.</p>
+                </div>
+
+                <!-- Quick Links Column -->
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul class="quick-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info Column -->
+                <div>
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="icon fas fa-map-marker-alt"></i>
+                            <span>824 Valley St.<br>Colorado Springs, CO 80915</span>
+                        </li>
+                        <li>
+                            <i class="icon fas fa-phone"></i>
+                            <a href="tel:7697701312">(769) 770-1312</a>
+                        </li>
+                        <li>
+                            <i class="icon fas fa-envelope"></i>
+                            <a href="mailto:management@colosteelmfg.com">management@colosteelmfg.com</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter Column -->
+                <div>
+                    <h3>Join Our Newsletter</h3>
+                    <p>Stay updated with our latest projects and industry news.</p>
+                     <form class="newsletter-form" action="#">
+                        <input type="email" name="email" id="email" placeholder="Your email address" />
+                        <button type="submit" class="button primary">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; <script>document.write(new Date().getFullYear())</script> Intermountain Steel Manufacturing Inc. All rights reserved. </a>.
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

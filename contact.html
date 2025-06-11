@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Intermountain Steel Manufacturing Inc.</title>
+    <meta name="description" content="Get in touch with Intermountain Steel Manufacturing in Colorado Springs for quotes, consultations, and inquiries.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Frameworks & Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Main Stylesheet (Untouched from Homepage) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Embedded Styles for Unique Subpage Header -->
+    <style>
+        .subpage-banner {
+            padding: 10rem 1.5rem 6rem 1.5rem;
+            background-color: #1a1a1a;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        .subpage-banner::after {
+            content: '';
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: radial-gradient(circle, rgba(45, 212, 191, 0.15) 0%, rgba(45, 212, 191, 0) 65%); /* Teal glow */
+            filter: blur(100px);
+        }
+        .subpage-banner .inner {
+            position: relative;
+            z-index: 2;
+        }
+        .subpage-banner h1 {
+            font-size: 3rem;
+            font-weight: 900;
+        }
+        .subpage-banner p {
+            font-size: 1.25rem;
+            color: #9ca3af;
+            max-width: 45rem;
+            margin: 1rem auto 0 auto;
+        }
+        @media (min-width: 768px) {
+            .subpage-banner h1 {
+                font-size: 4rem;
+            }
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">
+                <span class="icon"><i class="fas fa-mountain fa-lg"></i></span>
+                <span class="title">Intermountain Steel</span>
+            </a>
+            <button id="menu-btn" class="menu-btn">Menu</button>
+        </header>
+
+        <!-- Navigation Overlay -->
+        <div id="nav-overlay">
+            <button id="nav-close-btn" class="close-btn">&times;</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- NEW Unique Subpage Banner -->
+        <section class="subpage-banner">
+            <div class="inner">
+                <header class="wow animate__animated animate__fadeInDown">
+                    <h1>Contact Us</h1>
+                </header>
+                <div class="content wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                    <p>We're ready to build with you. Reach out to our team for quotes, consultations, or any inquiries.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <div id="main">
+
+            <!-- REWORKED Contact Form and Details Section -->
+            <section id="contact-section" class="content-section darker">
+                <div class="inner">
+                    <div style="display: grid; grid-template-columns: 1fr; gap: 4rem; align-items: flex-start;">
+
+                        <!-- Left Column: Form -->
+                        <div class="wow animate__animated animate__fadeInUp" style="text-align: left;">
+                            <header class="major text-left mb-8">
+                                <h2 class="text-3xl border-b-0 pb-0">Send a Message</h2>
+                            </header>
+                            <form method="post" action="#">
+                                <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
+                                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+                                        <div>
+                                            <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Name</label>
+                                            <input type="text" name="name" id="name" style="width: 100%; background-color: #111827; border: 1px solid #374151; color: #e5e7eb; padding: 0.75rem 1rem; border-radius: 0.25rem; transition: border-color 0.2s ease;" />
+                                        </div>
+                                        <div>
+                                            <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email</label>
+                                            <input type="email" name="email" id="email" style="width: 100%; background-color: #111827; border: 1px solid #374151; color: #e5e7eb; padding: 0.75rem 1rem; border-radius: 0.25rem; transition: border-color 0.2s ease;" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Message</label>
+                                        <textarea name="message" id="message" rows="6" style="width: 100%; background-color: #111827; border: 1px solid #374151; color: #e5e7eb; padding: 0.75rem 1rem; border-radius: 0.25rem; transition: border-color 0.2s ease;"></textarea>
+                                    </div>
+                                    <div style="display: flex; gap: 1rem;">
+                                        <input type="submit" value="Send Message" class="button primary" style="border: none;" />
+                                        <input type="reset" value="Clear" class="button secondary" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Right Column: Details -->
+                        <div class="wow animate__animated animate__fadeInUp" data-wow-delay="0.2s" style="text-align: left;">
+                            <header class="major text-left mb-8">
+                                <h2 class="text-3xl border-b-0 pb-0">Our Info</h2>
+                            </header>
+                            <div style="display: flex; flex-direction: column; gap: 2rem;">
+                                <div style="display: flex; align-items: flex-start;">
+                                    <i class="fas fa-map-marker-alt" style="font-size: 1.5rem; color: #2dd4bf; margin-right: 1.5rem; margin-top: 0.25rem; width: 24px; text-align: center;"></i>
+                                    <div>
+                                        <h3 style="font-size: 1.25rem; font-weight: 700; margin: 0 0 0.25rem 0;">Address</h3>
+                                        <p style="margin: 0; line-height: 1.6; color: #9ca3af;">824 Valley St.<br>Colorado Springs, CO 80915</p>
+                                    </div>
+                                </div>
+                                <div style="display: flex; align-items: flex-start;">
+                                    <i class="fas fa-phone" style="font-size: 1.5rem; color: #2dd4bf; margin-right: 1.5rem; margin-top: 0.25rem; width: 24px; text-align: center;"></i>
+                                    <div>
+                                        <h3 style="font-size: 1.25rem; font-weight: 700; margin: 0 0 0.25rem 0;">Phone</h3>
+                                        <a href="tel:7697701312" style="color: #9ca3af; text-decoration: none;">(769) 770-1312</a>
+                                    </div>
+                                </div>
+                                <div style="display: flex; align-items: flex-start;">
+                                    <i class="fas fa-envelope" style="font-size: 1.5rem; color: #2dd4bf; margin-right: 1.5rem; margin-top: 0.25rem; width: 24px; text-align: center;"></i>
+                                    <div>
+                                        <h3 style="font-size: 1.25rem; font-weight: 700; margin: 0 0 0.25rem 0;">Email</h3>
+                                        <a href="mailto:management@colosteelmfg.com" style="color: #9ca3af; text-decoration: none;">management@colosteelmfg.com</a>
+                                    </div>
+                                </div>
+                                <div style="display: flex; align-items: flex-start;">
+                                    <i class="fas fa-clock" style="font-size: 1.5rem; color: #2dd4bf; margin-right: 1.5rem; margin-top: 0.25rem; width: 24px; text-align: center;"></i>
+                                    <div>
+                                        <h3 style="font-size: 1.25rem; font-weight: 700; margin: 0 0 0.25rem 0;">Business Hours</h3>
+                                        <p style="margin: 0; line-height: 1.6; color: #9ca3af;">Mon - Fri: 8:00 AM to 5:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map Section -->
+             <section id="map" class="w-full h-96 md:h-128">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.972378822915!2d-104.7222048846529!3d38.7876849795876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x871343d9f3814833%3A0x2f481c4e167384a6!2s824%20Valley%20St%2C%20Colorado%20Springs%2C%20CO%2080915%2C%20USA!5e0!3m2!1sen!2sng!4v1655000000000!5m2!1sen!2sng" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <!-- About Column -->
+                <div>
+                    <h3>About Intermountain Steel</h3>
+                    <p>A premier steel manufacturing company based in Colorado Springs, dedicated to providing high-quality components for commercial and residential construction.</p>
+                </div>
+
+                <!-- Quick Links Column -->
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul class="quick-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info Column -->
+                <div>
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="icon fas fa-map-marker-alt"></i>
+                            <span>824 Valley St.<br>Colorado Springs, CO 80915</span>
+                        </li>
+                        <li>
+                            <i class="icon fas fa-phone"></i>
+                            <a href="tel:7697701312">(769) 770-1312</a>
+                        </li>
+                        <li>
+                            <i class="icon fas fa-envelope"></i>
+                            <a href="mailto:management@colosteelmfg.com">management@colosteelmfg.com</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter Column -->
+                <div>
+                    <h3>Join Our Newsletter</h3>
+                    <p>Stay updated with our latest projects and industry news.</p>
+                     <form class="newsletter-form" action="#">
+                        <input type="email" name="email" id="email" placeholder="Your email address" />
+                        <button type="submit" class="button primary">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; <script>document.write(new Date().getFullYear())</script> Intermountain Steel Manufacturing Inc. All rights reserved. </a>.
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

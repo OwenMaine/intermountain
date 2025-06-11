@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Intermountain Steel Manufacturing Inc.</title>
+    <meta name="description" content="Explore our comprehensive steel manufacturing services, including structural fabrication, residential components, and custom metal works.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Frameworks & Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Main Stylesheet (Untouched from Homepage) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Embedded Styles for Unique Subpage Header -->
+    <style>
+        .subpage-banner {
+            padding: 10rem 1.5rem 6rem 1.5rem;
+            background-color: #1a1a1a;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        .subpage-banner::after {
+            content: '';
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: radial-gradient(circle, rgba(249, 115, 22, 0.15) 0%, rgba(249, 115, 22, 0) 65%); /* Orange glow */
+            filter: blur(100px);
+        }
+        .subpage-banner .inner {
+            position: relative;
+            z-index: 2;
+        }
+        .subpage-banner h1 {
+            font-size: 3rem;
+            font-weight: 900;
+        }
+        .subpage-banner p {
+            font-size: 1.25rem;
+            color: #9ca3af;
+            max-width: 45rem;
+            margin: 1rem auto 0 auto;
+        }
+        @media (min-width: 768px) {
+            .subpage-banner h1 {
+                font-size: 4rem;
+            }
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">
+                <span class="icon"><i class="fas fa-mountain fa-lg"></i></span>
+                <span class="title">Intermountain Steel</span>
+            </a>
+            <button id="menu-btn" class="menu-btn">Menu</button>
+        </header>
+
+        <!-- Navigation Overlay -->
+        <div id="nav-overlay">
+            <button id="nav-close-btn" class="close-btn">&times;</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- NEW Unique Subpage Banner -->
+        <section class="subpage-banner">
+            <div class="inner">
+                <header class="wow animate__animated animate__fadeInDown">
+                    <h1>Our Services</h1>
+                </header>
+                <div class="content wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                    <p>Delivering a full spectrum of steel manufacturing solutions built on a foundation of quality, precision, and reliability.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <div id="main">
+
+            <!-- Service 1: Structural Steel Fabrication -->
+            <section id="service-fabrication" class="content-section darker">
+                <div class="inner wow animate__animated animate__fadeInUp">
+                    <div class="text-left md:flex gap-12 items-center">
+                        <div class="md:w-1/2">
+                            <img src="assets/images/12.jpg" alt="Structural Steel Fabrication" class="rounded-lg shadow-lg w-full mb-8 md:mb-0">
+                        </div>
+                        <div class="md:w-1/2">
+                            <header class="major text-left">
+                                <h2 class="text-3xl border-b-0 pb-0">Structural Steel Fabrication</h2>
+                            </header>
+                            <p class="mb-4">We are experts in fabricating the backbone of commercial, industrial, and public structures. Our state-of-the-art facility produces high-strength beams, columns, trusses, and support frames that serve as the critical foundation for large-scale construction projects, ensuring integrity and longevity.</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-300">
+                                <li>Commercial & Industrial Buildings</li>
+                                <li>Bridges & Infrastructure</li>
+                                <li>Support Structures & Trusses</li>
+                                <li>Custom Large-Scale Frameworks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Service 2: Residential Steel Components -->
+            <section id="service-residential" class="content-section">
+                <div class="inner wow animate__animated animate__fadeInUp">
+                     <div class="md:flex flex-row-reverse gap-12 items-center">
+                        <div class="md:w-1/2">
+                            <img src="assets/images/13.jpg" alt="Residential Steel Components" class="rounded-lg shadow-lg w-full mb-8 md:mb-0">
+                        </div>
+                        <div class="md:w-1/2 text-left">
+                            <header class="major text-left">
+                                <h2 class="text-3xl border-b-0 pb-0">Residential Steel Components</h2>
+                            </header>
+                            <p class="mb-4">Bring modern strength and sleek aesthetics to residential projects with our custom steel components. We craft everything from durable structural framing and custom I-beams to elegant staircases, railings, and unique decorative elements that define contemporary architecture.</p>
+                             <ul class="list-disc list-inside space-y-2 text-gray-300">
+                                <li>Custom Steel Framing & Beams</li>
+                                <li>Interior & Exterior Staircases</li>
+                                <li>Modern Railing Systems</li>
+                                <li>Architectural & Decorative Metalwork</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Service 3: Custom Metal Works -->
+            <section id="service-custom" class="content-section darker">
+                <div class="inner wow animate__animated animate__fadeInUp">
+                    <div class="text-left md:flex gap-12 items-center">
+                        <div class="md:w-1/2">
+                            <img src="assets/images/14.jpg" alt="Custom Metal Works" class="rounded-lg shadow-lg w-full mb-8 md:mb-0">
+                        </div>
+                        <div class="md:w-1/2">
+                           <header class="major text-left">
+                                <h2 class="text-3xl border-b-0 pb-0">Custom Metal Works</h2>
+                            </header>
+                            <p class="mb-4">For projects that demand a unique vision, our custom metal works service offers limitless possibilities. We collaborate closely with architects and designers to create bespoke steel components, from intricate artistic installations to highly specific industrial parts, all manufactured with precision and artistry.</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-300">
+                                <li>Bespoke Architectural Features</li>
+                                <li>Heavy-Duty Equipment Parts</li>
+                                <li>Artistic & Sculptural Elements</li>
+                                <li>Prototyping & Specialty Components</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action Section -->
+            <section id="cta" class="content-section">
+                <div class="inner wow animate__animated animate__pulse">
+                     <header class="major">
+                        <h2>Ready to Start Your Project?</h2>
+                    </header>
+                    <p class="section-intro">Our team has the expertise to handle any steel manufacturing challenge. Contact us today to discuss your project requirements and receive a detailed quote.</p>
+                     <ul class="actions" style="margin-top: 2rem;">
+                        <li><a href="contact.html" class="button secondary">Get a Quote</a></li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <!-- About Column -->
+                <div>
+                    <h3>About Intermountain Steel</h3>
+                    <p>A premier steel manufacturing company based in Colorado Springs, dedicated to providing high-quality components for commercial and residential construction.</p>
+                </div>
+
+                <!-- Quick Links Column -->
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul class="quick-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info Column -->
+                <div>
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="icon fas fa-map-marker-alt"></i>
+                            <span>824 Valley St.<br>Colorado Springs, CO 80915</span>
+                        </li>
+                        <li>
+                            <i class="icon fas fa-phone"></i>
+                            <a href="tel:7697701312">(769) 770-1312</a>
+                        </li>
+                        <li>
+                            <i class="icon fas fa-envelope"></i>
+                            <a href="mailto:management@colosteelmfg.com">management@colosteelmfg.com</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter Column -->
+                <div>
+                    <h3>Join Our Newsletter</h3>
+                    <p>Stay updated with our latest projects and industry news.</p>
+                     <form class="newsletter-form" action="#">
+                        <input type="email" name="email" id="email" placeholder="Your email address" />
+                        <button type="submit" class="button primary">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; <script>document.write(new Date().getFullYear())</script> Intermountain Steel Manufacturing Inc. All rights reserved. </a>.
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
